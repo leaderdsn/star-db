@@ -6,7 +6,7 @@ import DummySwapiService from '../../services/dummy-swapi-service';
 import ErrorBoundry from '../error-boundry';
 import { SwapiServiceProvider } from '../swapi-service-context';
 import { PeoplePage, PlanetPage, StarshipPage, LoginPage, SecretPage } from '../pages';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import SwapiService from '../../services/swapi-service';
 import { StarshipDetails } from '../sw-components';
