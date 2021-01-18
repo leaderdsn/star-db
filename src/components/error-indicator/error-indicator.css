@@ -1,0 +1,17 @@
+.error-indicator {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    margin: 0 auto;
+    color: rgb(196, 89, 2);
+    text-align: center;
+}
+
+.error-indicator .boom {
+    font-size: 2em;
+    display: block;
+}
+
+span {
+    display: block;
+}
